@@ -1,0 +1,172 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+padding-bottom: 5%
+}
+
+#features{
+  text-align: center;
+color: #8f8f8f;
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-link{
+  margin: 0 18px;
+  font-size: 1.25rem;
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.phone{
+  width: 60%;
+  transform:rotate(25deg);
+  position:absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+/* features emblems */
+
+.emblems{
+  font-size: 4.2rem;
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.emblems:hover{
+  color:#ff4c88;
+}
+
+
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  color: #fff;
+  background-color: #ef8172;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.press-images{
+  width: 12%;
+  margin: 1.25rem 1.25rem 3rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+
+#title{
+  text-align: center;
+}
+
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* bottom section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.end-text{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 0 10%;
+  color: #fff;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding-top:5%;
+}
+
+.social{
+  margin: 10px 10px;
+}
